@@ -1,13 +1,13 @@
 from flask import Flask, request, jsonify, render_template
 import requests
-mytoken = "AstraCS:IARjUuUUigvclPWkomLuRzRZ:bf7570e05cd1931f750a714f1e1eb7146aea10cc647ab92da8909aa9ae92765b"
+mytoken = //Add your token
 import csv
 
 app = Flask(__name__)
 
-BASE_API_URL = "https://api.langflow.astra.datastax.com"
-LANGFLOW_ID = "a6af9f4a-c1e7-49cb-9d11-7f445fa5e7f0"
-FLOW_ID = "30b131b1-4075-4d3b-a3ba-5094f2d63aef"
+BASE_API_URL = //Add your id
+LANGFLOW_ID = //Add your id
+FLOW_ID = //Add your id
 APPLICATION_TOKEN = mytoken
 ENDPOINT = "stockAI" # You can set a specific endpoint name in the flow settings
 
